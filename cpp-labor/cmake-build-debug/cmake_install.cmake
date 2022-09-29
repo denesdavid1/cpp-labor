@@ -1,4 +1,4 @@
-# Install script for directory: /home/manyi/Downloads/cpp-labor
+# Install script for directory: /Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,72 +34,72 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab01/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab01/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab02/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab02/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab03/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab03/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab04/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab04/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab05/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab05/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab06/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab06/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab07/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab07/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab08/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab08/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab09/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab09/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab10/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab10/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab11/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab11/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab12/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab12/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/manyi/Downloads/cpp-labor/cmake-build-debug/lab13/cmake_install.cmake")
+  include("/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/lab13/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -115,5 +110,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/manyi/Downloads/cpp-labor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/David/Documents/masodev/gitre/cpp-labor/cpp-labor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
